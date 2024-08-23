@@ -52,7 +52,7 @@ download_release() {
 	x86_64)
 		arch=amd64
 		;;
-	aarch64)
+	aarch64 | arm64)
 		arch=arm64
 		;;
 	*)
