@@ -15,35 +15,32 @@
 
 # Dependencies
 
-**TODO: adapt this section**
-
 - `bash`, `curl`, `tar`, and [POSIX utilities](https://pubs.opengroup.org/onlinepubs/9699919799/idx/utilities.html).
-- `SOME_ENV_VAR`: set this environment variable in your shell config to load the correct version of tool x.
 
 # Install
 
 Plugin:
 
 ```shell
-asdf plugin add woodpecker
+asdf plugin add woodpecker-cli
 # or
-asdf plugin add woodpecker https://github.com/ivanvc/asdf-woodpecker.git
+asdf plugin add woodpecker-cli https://github.com/ivanvc/asdf-woodpecker.git
 ```
 
 woodpecker:
 
 ```shell
 # Show all installable versions
-asdf list-all woodpecker
+asdf list-all woodpecker-cli
 
 # Install specific version
-asdf install woodpecker latest
+asdf install woodpecker-cli latest
 
 # Set a version globally (on your ~/.tool-versions file)
-asdf global woodpecker latest
+asdf global woodpecker-cli latest
 
-# Now woodpecker commands are available
-woodpecker --help
+# Now woodpecker-cli commands are available
+woodpecker-cli --help
 ```
 
 Check [asdf](https://github.com/asdf-vm/asdf) readme for more instructions on how to
